@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>
+TRUYUM
+        </title>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+         <script type="text/javascript" src="js/script.js"></script>
+
+     
+        </head>
+
+<body>
+        <nav class= "navbar navbar-expand-lg" style="background-color:darkblue;"> 
+            <h2 class="text-white">TRUYUM </h2>
+            <img src="images/icon.jpg" width="50px">
+            <a class="ml-auto navbar-nav navbar-brand navbar-inverse navbar-fixed-top text-white py-5" href="menu-item-list-admin.html">Menu</a>
+        </nav>
+        <p></p>
+
+<div class="container py-5">
+    
+        <p></p>
+     <h3 >Edit Menu Item</h3>
+     <p></p>
+     <form name="myform">
+    <div class="form-group">
+        <label for="name" class="lead"><h4>Name</h4></label>
+        <input type="text" class="form-control" id="title" name="title">
+    
+    </div>
+    <p></p>
+
+        <div class="row">
+            <div class="col-md-2">
+                <label class="h4">Price (Rs.)</label>
+                <input type="text" class="form-control" id="email" name="price">
+            </div>
+            <div class="col-md-2 ml-auto">
+                    <label class="h4">Active</label>
+                    <div class="form-check form-check-inline">
+                            <input class="form-check-input " type="radio"  name="Active" id="Radio1" value="option1" checked>
+                            <label class="form-check-label" for="Radio1">Yes</label>
+                            <input class=" form-check-input ml-2" type="radio" name="Active" id="Radio2" value="option2"> 
+                            <label class="form-check-label" for="Radio2">N0</label>
+                         </div>
+                    
+                </div>
+                <div class="col-md-3 ml-auto">
+                        <label class="h4">Date Of Launch</label>
+                        <input type="date" id="dateOfLaunch" name="dateOfLaunch">
+                    </div>
+                    <div class="col-md-2 ml-auto">
+                            <label class="h4">Category</label>
+                            
+                            
+                            
+                                <select id="category" name="category">
+                                        <option value="-1">Choose one</option>
+                                        <option value="1">Main Course</option>
+                                        <option value="2">Starters</option>
+                                        <option value="3">Desserts</option>
+                                        <option value="4">Drinks</option>
+                                        </select>
+                                    
+                        </div>
+              
+        </div>
+    </form>
+    <p></p>
+    <div>
+            <p></p>   
+    </div>
+    <div class="form-check">
+            <input type="checkbox" class="form-check-input" id ="check">
+            <label class="form-check-label h4" for="example-check" >Free Delivery</label>
+    
+        </div><p></p>
+    <p></p>
+    <button type="submit" class="btn btn-success" onclick="validateform()">Save</button>
+    <p></p>
+    </form>
+</div>
+
+
+        <div class="footer-copyright text-center py-3 bg-secondary ">Copyright @ 2019</div>
+    </body>
+</html>
